@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Футболисты</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="header" id="header"></header>
+    <main>
+        <h1 class="page-title">Легенды футбола</h1>
+        <div class="cards-container" id="cards-container"></div>
+    </main>
+    <template id="card-template">
+        <article class="card">
+            <img src="" alt="" class="card__image">
+            <div class="card__info">
+                <h2 class="card__title"></h2>
+                <p class="card__club"></p>
+                <p class="card__country"></p>
+                <p class="card__position"></p>
+            </div>
+        </article>
+    </template>
+    <script src="assets/js/stores/config.js"></script>
+    <script src="assets/js/models/Footballer.js"></script>
+    <script src="assets/js/stores/main-content-store.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

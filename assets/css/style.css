@@ -1,0 +1,13 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
+body { background-color: #f4f5f7; padding: 20px; }
+.header { background-color: white; padding: 15px 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+.author-info { display: flex; gap: 15px; font-size: 14px; color: #555; }
+.author-info a { text-decoration: none; font-weight: bold; }
+.page-title { text-align: center; margin-bottom: 30px; color: #333; }
+.cards-container { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+.card { background-color: white; width: 280px; border-radius: 10px; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: flex; flex-direction: column; gap: 10px; }
+.card__image { width: 100%; height: 300px; object-fit: cover; border-radius: 8px; background-color: #eee; }
+.card__info { display: flex; flex-direction: column; gap: 5px; }
+.card__title { font-size: 18px; color: #222; margin-bottom: 5px; }
+.card__club { font-weight: bold; color: #2980b9; }
+.card__country, .card__position { font-size: 14px; color: #666; }
